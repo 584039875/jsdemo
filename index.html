@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        border-radius: 8px;
+        border: solid 1px #ddd;
+        background-color: #666;
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+    <script>
+      function hello() {
+        document.getElementById('tip').innerHTML = 'Hello world'
+      }
+      window.onload = () => {
+        hello()
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>index.html test</h1>
+      <div id="tip"></div>
+    </div>
+  </body>
+</html>
